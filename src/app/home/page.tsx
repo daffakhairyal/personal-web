@@ -51,7 +51,7 @@ export default function Hero() {
             className='sticky z-10' // Static untuk mempertahankan posisi relatif
         />
     </div>
-    <div className='absolute w-full h-full top-0 left-[-40px] bg-yellow-300 rounded-full max-h-[500px] max-w-[500px]  z-0'></div>
+    <div className='absolute w-full h-full top-0 left-[-40px] bg-yellow-300 rounded-full max-h-[500px] max-w-[500px] z-0'></div>
 </div>
 
         </div>
