@@ -13,7 +13,7 @@ export default function Hero() {
         setIsClient(true); // Setiap kali komponen dimuat di client
         if (isClient && typedRef.current) {
             const typed = new Typed(typedRef.current, {
-                strings: ["Data Analyst", "Fullstack Website Developer"],
+                strings: ["Data Analyst", "Fullstack Website Developer","Excel Expert"],
                 typeSpeed: 50,
                 backSpeed: 30,
                 loop: true,
@@ -23,8 +23,8 @@ export default function Hero() {
     }, [isClient]);
 
     return (
-        <div className="text-white flex justify-center items-center gap-x-20">
-            <section className="w-full max-w-[475px]">
+        <div className="text-white flex-col-reverse flex md:flex-row justify-center items-center gap-x-10">
+            <section className="w-full max-w-[475px] p-5">
                 <h1 className="text-5xl">
                     Hello! I&apos;m <span className="font-semibold">Daffa Almayrizq</span>
                 </h1>
@@ -44,13 +44,16 @@ export default function Hero() {
                 </div>
             </section>
             <div className="relative">
-                <div className="absolute bg-yellow-300 w-[550px] h-[550px] left-[-40px] right-0 -z-10 rounded-full"></div>
-                <Image
-                    src={Me}
-                    alt="Logo"
-                    className="w-full max-w-[400px] h-auto"
-                />
-            </div>
+    <div className='max-w-[400px] w-full'>
+        <Image
+            src={Me}
+            alt="Logo"
+            className='sticky z-10' // Static untuk mempertahankan posisi relatif
+        />
+    </div>
+    <div className='absolute w-full h-full top-0 left-[-40px] bg-yellow-300 rounded-full max-h-[500px] max-w-[500px]  z-0'></div>
+</div>
+
         </div>
     );
 }
