@@ -1,0 +1,11 @@
+.bulat{
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius:30%;
+}
+
+@media (max-width:768px) {
+    .bulat{
+        border-bottom-right-radius: 25%;
+        border-bottom-left-radius:25%;
+    }
+}

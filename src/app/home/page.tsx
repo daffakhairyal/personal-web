@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 import Image from 'next/image';
 import Me from "../../assets/me.png";
+import "./index.css"
 
 export default function Hero() {
     const typedRef = useRef<HTMLSpanElement>(null);
@@ -23,7 +24,7 @@ export default function Hero() {
     }, [isClient]);
 
     return (
-        <div className="text-white flex-col-reverse flex md:flex-row justify-center items-center gap-x-10">
+        <div className="text-white flex-col-reverse flex md:flex-row justify-center items-center gap-x-10 bg-black p-3 bulat">
             <section className="w-full max-w-[475px] p-5">
                 <h1 className="text-5xl">
                     Hello! I&apos;m <span className="font-semibold">Daffa Almayrizq</span>

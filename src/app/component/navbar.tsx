@@ -6,7 +6,7 @@ const logoImage: StaticImageData = logo;
 
 const Navbar = () => {
     return (
-        <header>
+        <header className='bg-black'>
             <nav className="lg:hidden flex justify-between items-center font-semibold py-3 px-5 text-slate-100 ">
             <a href="#" target="_blank" rel="noopener noreferrer">
             <Image 
