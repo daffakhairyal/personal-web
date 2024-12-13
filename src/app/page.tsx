@@ -1,5 +1,9 @@
+import Hero from "./home/page";
+
 export default function Home(){
   return(
-    <div className="">Test</div>
+    <section>
+      <Hero/>
+    </section>
   )
 }

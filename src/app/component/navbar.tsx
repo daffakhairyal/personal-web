@@ -17,7 +17,7 @@ const Navbar = () => {
 
             <ul className='flex gap-x-7'>
                 <li>
-                    <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>HOME</a>
+                    <a href="/home" target="_blank" className='hover:text-slate-400 duration-300'>HOME</a>
                 </li>
                 <li>
                     <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>ABOUT ME</a>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <button className='p-4 rounded-full shadow-md bg-white text-black hover:bg-slate-800 hover:text-white duration-300'>
-                LET'S COLLABORATE
+                LET&apos;S COLLABORATE
             </button>
         </nav>
     );
