@@ -42,9 +42,9 @@ const Navbar = () => {
                 <li>
                     <a href="/home" target="_blank" className='hover:text-slate-400 duration-300'>HOME</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>ABOUT ME</a>
-                </li>
+                </li> */}
                 <li>
                     <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>SERVICE</a>
                 </li>

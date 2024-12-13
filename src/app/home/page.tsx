@@ -24,7 +24,7 @@ export default function Hero() {
     }, [isClient]);
 
     return (
-        <div className="text-white flex-col-reverse flex md:flex-row justify-center items-center gap-x-10 bg-black p-3 bulat">
+        <div className="text-white flex-col-reverse flex md:flex-row justify-center items-center gap-x-10 bg-black p-3 pb-20">
             <section className="w-full max-w-[475px] p-5">
                 <h1 className="text-5xl">
                     Hello! I&apos;m <span className="font-semibold">Daffa Almayrizq</span>

@@ -1,6 +1,11 @@
-.bulat{
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius:30%;
+.bulat-bottom{
+    border-bottom-right-radius: 32%;
+    border-bottom-left-radius:32%;
+}
+
+.bulat-top{
+    border-top-right-radius: 32%;
+    border-top-left-radius:32%;
 }
 
 @media (max-width:768px) {
