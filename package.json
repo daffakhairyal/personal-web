@@ -13,7 +13,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-simple-typewriter": "^5.0.1",
-    "react-typed": "^2.0.12"
+    "react-typed": "^2.0.12",
+    "typed.js": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
