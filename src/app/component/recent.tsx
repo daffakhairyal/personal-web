@@ -1,16 +1,26 @@
 import Image from 'next/image';
 import Logo from "../../assets/logo.png";
+import PPID from "../../assets/ppid.png"
 
 export default function Recent() {
     return (
-        <section className="relative bg-yellow-300">
+        <section className="relative">
             <Image
                 src={Logo}
                 alt="Logo"
-                width={150}
-                className='absolute top-[-60px] left-1/2 transform -translate-x-1/2  z-10' 
+                className='w-[100px] md:w-[150px] absolute top-[-60px] md:top-[-60px] left-1/2 transform -translate-x-1/2  z-10' 
             />
-            <h1 className='flex justify-center items-center py-20 font-semibold text-3xl md:text-4xl'>My Recent Work</h1>
+            <div className='absolute top-0 -z-10 '>
+            <div className='relative'>
+            <div className='absolute w-full h-[100px] md:h-[200px] bg-gradient-to-b from-black'></div>
+            <Image
+            src={PPID}
+            alt="PPID"
+            className=''
+            />
+            </div>
+
+            </div>
         </section>
     );
 }
