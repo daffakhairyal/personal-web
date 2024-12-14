@@ -1,4 +1,5 @@
 
+import Expertise from "./component/expertise";
 import Recent from "./component/recent";
 import Hero from "./home/page";
 
@@ -7,6 +8,7 @@ export default function Home(){
     <section>
       <Hero/>
       <Recent/>
+      <Expertise/>
     </section>
   )
 }
