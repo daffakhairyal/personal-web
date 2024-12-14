@@ -6,7 +6,7 @@ import { GoLink } from "react-icons/go";
 export default function Recent() {
     return (
         <section className="relative bg-black w-full flex justify-center pt-5 pb-10">
-            <div className='w-full max-w-[1400px] flex flex-col-reverse md:flex-row justify-around'>
+            <div className='w-full max-w-[1400px] flex flex-col-reverse md:flex-row justify-around gap-x-5'>
             <div className='w-full bg-red-300 p-3'>
                 Konten foto
             </div>
