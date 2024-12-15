@@ -40,7 +40,7 @@ const Navbar = () => {
 
             <ul className='flex gap-x-7'>
                 <li>
-                    <a href="/home" target="_blank" className='hover:text-slate-400 duration-300'>HOME</a>
+                    <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>HOME</a>
                 </li>
                 {/* <li>
                     <a href="#" target="_blank" className='hover:text-slate-400 duration-300'>ABOUT ME</a>
