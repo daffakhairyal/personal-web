@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Data from "../../assets/data.png";
 import Website from "../../assets/website.png"
-import { GoLink } from "react-icons/go";
+
 
 export default function Expertise(){
     return(

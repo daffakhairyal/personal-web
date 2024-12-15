@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from "../../assets/logo.png";
+
 import Web from "../../assets/web.png"
 import { GoLink } from "react-icons/go";
 
