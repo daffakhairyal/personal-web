@@ -1,14 +1,18 @@
 import Image from 'next/image';
 import Logo from "../../assets/logo.png";
-import PPID from "../../assets/ppid.png"
+import Web from "../../assets/web.png"
 import { GoLink } from "react-icons/go";
 
 export default function Recent() {
     return (
         <section className="relative bg-black w-full flex justify-center pt-5 pb-10">
-            <div className='w-full max-w-[1400px] flex flex-col-reverse md:flex-row justify-around gap-x-5'>
-            <div className='w-full bg-red-300 p-3'>
-                Konten foto
+            <div className='w-full max-w-[1400px] flex flex-col lg:flex-row justify-around gap-x-5'>
+            <div className='w-full p-3 flex items-center justify-center'>
+                <Image
+                src={Web}
+                alt='Web'
+                className='w-3/4 lg:w-full flex'
+                />
             </div>
             <div className='w-full p-3'>
                 <h1 className='font-semibold text-6xl text-slate-50'>Why does your business <span className='text-yellow-300'>need a Website?</span></h1>

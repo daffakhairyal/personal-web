@@ -14,7 +14,7 @@ export default function Hero() {
         setIsClient(true); // Setiap kali komponen dimuat di client
         if (isClient && typedRef.current) {
             const typed = new Typed(typedRef.current, {
-                strings: ["Data Analyst", "Fullstack Website Developer","Excel Expert"],
+                strings: ["Data Analyst!", "Fullstack Website Developer!","Excel Expert!"],
                 typeSpeed: 50,
                 backSpeed: 30,
                 loop: true,
@@ -32,7 +32,7 @@ export default function Hero() {
                 <br />
                 <h2 className="text-3xl">
                     {/* Render typed.js hanya di client */}
-                    {isClient && <span ref={typedRef}></span>} based in Jakarta, Indonesia
+                    Your Trusted {isClient && <span ref={typedRef}></span>} 
                 </h2>
                 <br />
                 <div className="flex gap-x-5">
