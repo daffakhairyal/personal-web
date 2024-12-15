@@ -8,6 +8,23 @@
     border-top-left-radius:32%;
 }
 
+.box {
+    --mask:
+    radial-gradient(26.76px at 50% 37.8px,#000 99%,#0000 101%) calc(50% - 36px) 0/72px 51% repeat-x,
+    radial-gradient(26.76px at 50% -19.8px,#0000 99%,#000 101%) 50% 18px/72px calc(51% - 18px) repeat-x,
+    radial-gradient(26.76px at 50% calc(100% - 37.8px),#000 99%,#0000 101%) calc(50% - 36px) 100%/72px 51% repeat-x,
+    radial-gradient(26.76px at 50% calc(100% + 19.8px),#0000 99%,#000 101%) 50% calc(100% - 18px)/72px calc(51% - 18px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+
+  .box-pattern {
+    background-color: #000000;
+    opacity: 1;
+    background-image: linear-gradient(0deg, #000000 50%, #8395ac 50%);
+    background-size: 23px 23px;
+  }
+
 @media (max-width:768px) {
     .bulat{
         border-bottom-right-radius: 25%;
