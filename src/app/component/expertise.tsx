@@ -9,13 +9,16 @@ export default function Expertise(){
                     <div className='w-full max-w-[1400px] flex flex-col pt-10'>
                         <h1 className='text-white text-5xl font-semibold border-b-4 border-b-slate-50 py-3 max-w-[500px]'>Discover What I Offer</h1>
                         <div className='grid grid-rows-1 md:grid-rows-2 md:grid-flow-col text-white  p-5 '>
-                            <div className=' flex flex-col justify-center items-center p-5 gap-y-3'>
-                                <div className='object-cover w-full max-w-[200px] h-full max-h-[100px]'>
+                            <div className=' flex flex-col justify-center items-center p-5 gap-y-3 '>
+                                
+                                <div className='object-cover w-full max-w-[200px] h-full max-h-[100px] relative'>
                                 <Image
                                 src={Website}
                                 alt='Website'
-                                className='object-cover w-full max-w-[200px] h-full max-h-[100px]'
+                                className='object-cover w-full max-w-[200px] h-full max-h-[100px] sticky z-10'
                                 />
+                                <div className='absolute w-[150px] h-[100px] bg-red-300 top-[-30px] left-[-50px] rounded-bl-[50px] rounded-tr-[50px] z-0'></div>
+                                <div className='absolute w-[150px] h-[100px] bg-red-300 top-[30px] left-[50px] rounded-bl-[50px] rounded-tr-[50px] z-0'></div>
                                 </div>
                                 <h1 className='text-yellow-300 text-xl font-semibold'>Professional Business Websites</h1>
                                 <p className='text-slate-300 text-lg max-w-[300px]'>I build modern, user-friendly websites to attract and retain customers.</p>
